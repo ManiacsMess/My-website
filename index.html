@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My New Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>🚀 My Website</h1>
+      <p class="tagline">Simple custom-code starter — edit index.html & style.css</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="hero">
+      <h2>Hello 👋</h2>
+      <p>This is a simple homepage. Edit the files to make it yours.</p>
+      <a class="btn" href="#about">About</a>
+    </section>
+
+    <section id="about">
+      <h3>About</h3>
+      <p>Write a sentence or two about yourself, your project, or your brand.</p>
+    </section>
+
+    <section id="contact">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:you@yourdomain.com">you@yourdomain.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Your Name</p>
+    </div>
+  </footer>
+
+  <script>
+    // small script to show the current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
