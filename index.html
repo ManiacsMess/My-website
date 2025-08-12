@@ -3,89 +3,91 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Wzatco – Home Entertainment Solutions</title>
+  <title>Wzatco - Home Entertainment Solutions</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
 </head>
 <body>
-  <header class="header">
-    <div class="container header-content">
+
+  <header class="site-header">
+    <div class="container">
       <div class="logo">
-        <svg width="40" height="40" viewBox="0 0 100 100" aria-label="Wzatco logo">
-          <circle cx="50" cy="50" r="45" stroke="#004080" stroke-width="8" fill="#0099ff" />
-          <text x="50" y="60" font-family="Arial, sans-serif" font-size="40" fill="#fff" text-anchor="middle" font-weight="bold">W</text>
-        </svg>
-        <span class="logo-text">Wzatco</span>
+        <img src="images/logo.png" alt="Wzatco Logo" />
       </div>
-      <nav>
-        <a href="#products">Products</a>
-        <a href="#reviews">Reviews</a>
-        <a href="#newsletter">Newsletter</a>
-        <a href="#contact">Contact</a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
     </div>
   </header>
 
-  <section class="hero">
+  <section class="hero-section">
     <div class="container hero-content">
-      <h1>Experience Next-Level Home Entertainment</h1>
-      <p>Premium projectors and accessories designed for clarity, style, and ease of use.</p>
+      <h1>Elevate Your Home Entertainment</h1>
+      <p>Discover high-quality projectors and accessories that transform your viewing experience.</p>
       <a href="#products" class="btn-primary">Shop Now</a>
     </div>
   </section>
 
-  <section id="products" class="products-section container">
-    <h2>Our Products</h2>
-    <div class="products-grid">
-      <div class="product-card">
-        <img src="https://via.placeholder.com/300x200?text=4K+Projector" alt="4K Home Projector" />
-        <h3>4K Home Projector</h3>
-        <p>Immersive ultra HD visuals for your living room cinema experience.</p>
-      </div>
-      <div class="product-card">
-        <img src="https://via.placeholder.com/300x200?text=Mini+Projector" alt="Mini Portable Projector" />
-        <h3>Mini Portable Projector</h3>
-        <p>Compact, lightweight, and perfect for entertainment on the go.</p>
-      </div>
-      <div class="product-card">
-        <img src="https://via.placeholder.com/300x200?text=Accessories" alt="Projection Accessories" />
-        <h3>Accessories</h3>
-        <p>Screen mounts, cables, and more to complete your setup.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="reviews" class="reviews-section container">
-    <h2>What Our Customers Say</h2>
-    <div class="review">
-      <blockquote>"The 4K Projector completely transformed movie nights at home — stunning image quality and easy setup!"</blockquote>
-      <cite>- Rajesh P.</cite>
-    </div>
-    <div class="review">
-      <blockquote>"Portable projector is super handy for presentations and watching videos while traveling."</blockquote>
-      <cite>- Anita S.</cite>
-    </div>
-  </section>
-
-  <section id="newsletter" class="newsletter-section container">
-    <h2>Stay Updated</h2>
-    <p>Subscribe to our newsletter for the latest offers and product news.</p>
-    <form>
-      <input type="email" placeholder="Your email address" required />
-      <button type="submit">Subscribe</button>
-    </form>
-  </section>
-
-  <section id="contact" class="contact-section container">
-    <h2>Contact Us</h2>
-    <p>Email: <a href="mailto:info@wzatco.shop">info@wzatco.shop</a></p>
-    <p>Phone: +1 (555) 123-4567</p>
-  </section>
-
-  <footer class="footer">
+  <section id="products" class="products-section">
     <div class="container">
-      <p>© 2025 Wzatco. All rights reserved.</p>
+      <h2>Featured Products</h2>
+      <div class="product-list">
+        <article class="product-card">
+          <img src="images/product1.jpg" alt="4K Projector" />
+          <h3>4K Home Projector</h3>
+          <p>Ultra HD visuals with vivid colors and deep contrasts.</p>
+        </article>
+        <article class="product-card">
+          <img src="images/product2.jpg" alt="Mini Portable Projector" />
+          <h3>Mini Portable Projector</h3>
+          <p>Lightweight and compact for entertainment on the go.</p>
+        </article>
+        <article class="product-card">
+          <img src="images/product3.jpg" alt="Projector Accessories" />
+          <h3>Accessories</h3>
+          <p>Screen mounts, cables, and more to complete your setup.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="features-section">
+    <div class="container">
+      <h2>Why Choose Wzatco?</h2>
+      <ul class="features-list">
+        <li>Crystal-clear 4K resolution</li>
+        <li>Easy plug & play setup</li>
+        <li>Compact & portable designs</li>
+        <li>Reliable customer support</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2>About Wzatco</h2>
+      <p>We are dedicated to providing premium home entertainment products that bring cinema-quality experiences to your living room.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:info@wzatco.shop">info@wzatco.shop</a></p>
+      <p>Phone: +1 (555) 123-4567</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Wzatco. All rights reserved.</p>
     </div>
   </footer>
+
 </body>
 </html>
